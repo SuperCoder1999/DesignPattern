@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.atguigu.uml.aggregation</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.atguigu.uml.aggregation.Mouse</node>
+    <node x="45.25" y="83.0">com.atguigu.uml.aggregation.Computer</node>
+    <node x="113.0" y="0.0">com.atguigu.uml.aggregation.Moniter</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="112.0" y="58.0" />
+  <SelectedNodes>
+    <node>com.atguigu.uml.aggregation.Mouse</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
