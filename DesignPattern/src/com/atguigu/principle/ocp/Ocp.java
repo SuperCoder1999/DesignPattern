@@ -20,7 +20,7 @@ class GraphicEditor {
 			drawRectangle(s);
 		else if (s.m_type == 2)
 			drawCircle(s);
-		else if (s.m_type == 3)
+		else if (s.m_type == 3) // 这里进行了修改
 			drawTriangle(s);
 	}
 
@@ -34,7 +34,7 @@ class GraphicEditor {
 		System.out.println(" 绘制圆形 ");
 	}
 	
-	//绘制三角形
+	//新增绘制三角形
 	public void drawTriangle(Shape r) {
 		System.out.println(" 绘制三角形 ");
 	}
@@ -45,6 +45,7 @@ class Shape {
 	int m_type;
 }
 
+//矩形
 class Rectangle extends Shape {
 	Rectangle() {
 		super.m_type = 1;

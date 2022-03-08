@@ -25,7 +25,7 @@ class GraphicEditor {
 
 //Shape类，基类
 abstract class Shape {
-	int m_type;
+	int m_type; // 这样的模式下,m_type也不需要了
 	
 	public abstract void draw();//抽象方法
 }

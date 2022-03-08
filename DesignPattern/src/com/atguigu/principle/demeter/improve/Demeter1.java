@@ -3,6 +3,11 @@ package com.atguigu.principle.demeter.improve;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 可能是为了引出迪米特法则,所以看着别扭,违反单一职责原则.这里最好创建一个新类输出所有
+ * 也符合ocp原则...ocp大多情况就是单一原则的基础
+ */
+
 //客户端
 public class Demeter1 {
 
@@ -88,6 +93,7 @@ class SchoolManager {
 	}
 
 	//该方法完成输出学校总部和学院员工信息(id)
+	// (可能是为了引出迪米特法则,所以看着别扭,违反单一职责原则.这里最好创建一个新类输出所有)
 	void printAllEmployee(CollegeManager sub) {
 		
 		//分析问题

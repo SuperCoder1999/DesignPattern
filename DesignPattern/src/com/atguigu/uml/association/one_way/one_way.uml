@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.atguigu.uml.association.one_way</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.atguigu.uml.association.one_way.IDCard</node>
+    <node x="0.0" y="83.0">com.atguigu.uml.association.one_way.Person</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.atguigu.uml.association.one_way.Person" target="com.atguigu.uml.association.one_way.IDCard">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="124.5" y="16.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -10,7 +10,7 @@ public class Liskov {
 
 		System.out.println("-----------------------");
 		B b = new B();
-		//因为B类不再继承A类，因此调用者，不会再func1是求减法
+		//因为B类不再继承A类，因此调用者，不会再认为func1是求减法
 		//调用完成的功能就会很明确
 		System.out.println("11+3=" + b.func1(11, 3));//这里本意是求出11+3
 		System.out.println("1+8=" + b.func1(1, 8));// 1+8
@@ -38,8 +38,7 @@ class A extends Base {
 	}
 }
 
-// B类继承了A
-// 增加了一个新功能：完成两个数相加,然后和9求和
+// 增加了一个新功能：完成两个数相加,然后和9求和   ---  B类并没有理解.func1/func2是否多余?
 class B extends Base {
 	//如果B需要使用A类的方法,使用组合关系
 	private A a = new A();
